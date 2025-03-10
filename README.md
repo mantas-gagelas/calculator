@@ -32,3 +32,20 @@ Users can mark expressions as favorites, stored locally in the browser’s local
 Robust Constant Replacement:
 Error Handling:
 Informative messages are returned to users when invalid expressions are provided.
+
+Instructions:
+
+git clone https://github.com/mantas-gagelas/calculator
+cd calculator
+composer install
+copy .env.example .env     
+php artisan key:generate
+php artisan migrate
+npm install                
+npm run dev                
+php artisan config:clear
+php artisan cache:clear
+php artisan config:cache
+php artisan serve
+
+
